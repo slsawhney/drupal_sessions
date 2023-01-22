@@ -1,0 +1,7 @@
+/vendor/
+/web/sites/default/settings.local.php
+/access_log
+/error_log
+/.DS_Store
+/web/core/
+/web/sites/default/files/

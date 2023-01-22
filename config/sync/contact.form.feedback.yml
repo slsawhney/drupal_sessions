@@ -1,0 +1,14 @@
+uuid: 9afbede1-92ca-4e5f-8bf7-c0c69b40c211
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - info@drupalsession.local
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
