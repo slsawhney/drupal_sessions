@@ -5,3 +5,5 @@
 /.DS_Store
 /web/core/
 /web/sites/default/files/
+/web/modules/contrib/
+/.idea
