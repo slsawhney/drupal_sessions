@@ -1,0 +1,23 @@
+uuid: 3ffb2044-9289-4e15-95b3-aa61caf910c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_privacy_policy
+id: contact_message.feedback.field_privacy_policy
+field_name: field_privacy_policy
+entity_type: contact_message
+bundle: feedback
+label: 'Privacy Policy'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,25 @@
+uuid: a37f3351-9d5f-4bed-8586-7253962781b1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9a034557-3a0a-4e55-acc1-d4b2beb91375'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: banner
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:9a034557-3a0a-4e55-acc1-d4b2beb91375'
+settings:
+  id: 'block_content:9a034557-3a0a-4e55-acc1-d4b2beb91375'
+  label: Banner
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
