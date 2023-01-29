@@ -47,4 +47,5 @@ module:
 theme:
   olivero: 0
   claro: 0
+  drupal_session: 0
 profile: standard

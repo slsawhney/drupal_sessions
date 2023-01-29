@@ -1,0 +1,25 @@
+uuid: 8434687d-39f6-4c7d-b960-6beb4ebac0c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ac17bf35-bbfb-433c-95f0-66dc94710ae3'
+  module:
+    - block_content
+  theme:
+    - drupal_session
+id: footerstaticblock
+theme: drupal_session
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:ac17bf35-bbfb-433c-95f0-66dc94710ae3'
+settings:
+  id: 'block_content:ac17bf35-bbfb-433c-95f0-66dc94710ae3'
+  label: 'Footer static block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
