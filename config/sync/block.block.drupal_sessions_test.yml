@@ -1,0 +1,25 @@
+uuid: 114496d5-77d2-4c02-a1d5-2357d1a5ee62
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:71536da5-c105-4e8b-9af8-b6ca2b904fe9'
+  module:
+    - block_content
+  theme:
+    - drupal_sessions
+id: drupal_sessions_test
+theme: drupal_sessions
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:71536da5-c105-4e8b-9af8-b6ca2b904fe9'
+settings:
+  id: 'block_content:71536da5-c105-4e8b-9af8-b6ca2b904fe9'
+  label: TEst
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 127d5d19-911c-4393-87df-37642d62a431
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal_sessions
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: drupal_sessions_messages
+theme: drupal_sessions
+region: content
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

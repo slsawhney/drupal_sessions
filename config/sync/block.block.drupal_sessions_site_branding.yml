@@ -1,0 +1,25 @@
+uuid: a0be2152-d81d-4d1d-9168-c893c7fffa56
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal_sessions
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: drupal_sessions_site_branding
+theme: drupal_sessions
+region: header
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

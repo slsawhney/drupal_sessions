@@ -1,0 +1,22 @@
+uuid: 8230fec3-f854-4c46-b201-41389e0d5596
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal_sessions
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: drupal_sessions_breadcrumbs
+theme: drupal_sessions
+region: content
+weight: 2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

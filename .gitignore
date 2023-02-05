@@ -7,3 +7,5 @@
 /web/sites/default/files/
 /web/modules/contrib/
 /.idea
+/web/themes/contrib/
+/web/themes/custom/drupal_sessions/node_modules/

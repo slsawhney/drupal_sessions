@@ -1,0 +1,20 @@
+uuid: d605be5c-7386-4457-af20-d11dfa056240
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal_sessions
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: drupal_sessions_page_title
+theme: drupal_sessions
+region: content
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

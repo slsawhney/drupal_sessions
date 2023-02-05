@@ -1,0 +1,22 @@
+uuid: 3c7a5aa6-a865-42ea-8378-1d285a506325
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal_sessions
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: drupal_sessions_primary_local_tasks
+theme: drupal_sessions
+region: content
+weight: 1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
