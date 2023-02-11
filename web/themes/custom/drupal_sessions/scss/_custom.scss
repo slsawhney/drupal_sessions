@@ -8,3 +8,20 @@
     height: 4.375rem;
   }
 }
+
+.navbar-expand-lg {
+  .navbar-nav {
+    .nav-link {
+      color: $light-brown;
+
+      &:hover {
+        color: $dark-brown;
+      }
+    }
+  }
+}
+.menu--main{
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
