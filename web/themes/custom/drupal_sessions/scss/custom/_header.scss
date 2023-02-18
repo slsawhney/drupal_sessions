@@ -1,0 +1,56 @@
+.navbar {
+  max-height: 6.25rem;
+
+  @include media-breakpoint-up(xl) {
+    padding: 0.6rem 3.125rem;
+  }
+
+
+  .navbar-collapse {
+    background: $white;
+    z-index: 1;
+    padding: 1.25rem;
+  }
+
+  .container-fluid {
+    .navbar-brand {
+      img {
+        width: 9.563rem;
+        height: 4.375rem;
+      }
+    }
+
+    .navbar-nav {
+      margin: 0 auto;
+
+      .nav-item {
+        padding: 0 1.563rem;
+        @include media-breakpoint-down(xl) {
+          padding: 0;
+        }
+
+        .nav-link {
+          color: $primary;
+          font-size: 1.25rem;
+          font-weight: bolder;
+
+          &.active,
+          &.is-active,
+          &:hover {
+            color: $primary-higlight;
+          }
+
+        }
+      }
+    }
+  }
+
+  .contact-button {
+    background: $footer-brown;
+    color: $white;
+    border: none;
+    @include media-breakpoint-down(xl) {
+      margin-top: 6px;
+    }
+  }
+}

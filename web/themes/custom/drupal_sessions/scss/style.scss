@@ -3,6 +3,17 @@ Theme Name: Bootstrap 4 Sass
 Description: Bootstrap 4 with Sass
 */
 
+//font family
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Migra";
+  src: url("../font/PPMigra-Regular/PPMigra-Regular.ttf") format("truetype");
+}
+
 // import files
 @import "import";
 
@@ -11,6 +22,7 @@ Description: Bootstrap 4 with Sass
 
 body {
     background: $white;
+  font-family: "Source Sans Pro";
 }
 
 
@@ -57,4 +69,66 @@ a {
 
 .slick>div {
     margin: 0 15px;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.primary-link {
+  text-decoration: none;
+  vertical-align: middle;
+  font-weight: bold;
+
+  svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-left: 0.9375rem;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: $primary-higlight;;
+  }
+}
+
+.btn-primary {
+  background-color: $footer-brown;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 25px;
+  &:hover,
+  &:active{
+    background-color: $primary-higlight;
+  }
+}
+
+.secondary-bg {
+  background-color: $sky-blue;
+}
+
+.brown-bg {
+  background-color: $footer-brown;
+
+  ul {
+    list-style: none;
+    padding-left: initial;
+
+    li {
+      display: inline;
+      color: $white;
+      padding: 0 10px;
+
+      a {
+        color: $white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
