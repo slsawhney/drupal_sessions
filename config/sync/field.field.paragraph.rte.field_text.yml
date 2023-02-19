@@ -1,0 +1,21 @@
+uuid: fa7fb63b-6a18-4e35-9f68-6e6b37406132
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.rte
+  module:
+    - text
+id: paragraph.rte.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: rte
+label: Text
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

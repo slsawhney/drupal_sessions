@@ -1,0 +1,10 @@
+uuid: c9449638-bbcf-4570-a817-6cdce6641f76
+langcode: en
+status: true
+dependencies: {  }
+id: rte
+label: RTE
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

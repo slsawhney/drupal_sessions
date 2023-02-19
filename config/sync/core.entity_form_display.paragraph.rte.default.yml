@@ -1,0 +1,25 @@
+uuid: 069ed43b-dbd3-4de6-84fe-90465d6d3c17
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.rte.field_text
+    - paragraphs.paragraphs_type.rte
+  module:
+    - text
+id: paragraph.rte.default
+targetEntityType: paragraph
+bundle: rte
+mode: default
+content:
+  field_text:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
