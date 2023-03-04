@@ -3,30 +3,22 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.banner.field_image
-    - field.field.paragraph.banner.field_logo
+    - field.field.paragraph.banner.field_banner_item
     - paragraphs.paragraphs_type.banner
+  module:
+    - entity_reference_revisions
 id: paragraph.banner.default
 targetEntityType: paragraph
 bundle: banner
 mode: default
 content:
-  field_image:
-    type: entity_reference_entity_view
+  field_banner_item:
+    type: entity_reference_revisions_entity_view
     label: hidden
     settings:
       view_mode: default
-      link: false
+      link: ''
     third_party_settings: {  }
-    weight: 0
-    region: content
-  field_logo:
-    type: entity_reference_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: false
-    third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
 hidden: {  }

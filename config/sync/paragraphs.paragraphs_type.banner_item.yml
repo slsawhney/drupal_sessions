@@ -1,9 +1,9 @@
-uuid: bac5fde5-0f84-4f59-93f6-014ad52626b4
+uuid: bf148688-2dce-4fc5-8461-5fc320c85ea8
 langcode: en
 status: true
 dependencies: {  }
-id: banner
-label: 'Banner Component'
+id: banner_item
+label: 'Banner Item'
 icon_uuid: null
 icon_default: null
 description: ''

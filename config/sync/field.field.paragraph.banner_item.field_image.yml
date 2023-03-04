@@ -1,19 +1,19 @@
-uuid: d1c96b76-9a37-4082-93e1-bb0e60a2b01d
+uuid: 70614f8e-7044-4b56-b1d2-2f65af0bb934
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_image
     - media.type.image
-    - paragraphs.paragraphs_type.banner
-id: paragraph.banner.field_image
+    - paragraphs.paragraphs_type.banner_item
+id: paragraph.banner_item.field_image
 field_name: field_image
 entity_type: paragraph
-bundle: banner
+bundle: banner_item
 label: Image
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
