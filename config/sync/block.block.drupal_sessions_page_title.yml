@@ -9,7 +9,7 @@ _core:
 id: drupal_sessions_page_title
 theme: drupal_sessions
 region: content
-weight: -1
+weight: -3
 provider: null
 plugin: page_title_block
 settings:
