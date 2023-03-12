@@ -1,0 +1,33 @@
+uuid: 32e19911-4a05-44c3-bd8b-1ba59ed22b4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rest_export
+    - field.field.node.page.field_banner
+    - node.type.page
+  module:
+    - entity_reference_revisions
+    - user
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.rest_export
+targetEntityType: node
+bundle: page
+mode: rest_export
+content:
+  field_banner:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+hidden: {  }

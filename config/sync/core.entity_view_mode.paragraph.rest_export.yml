@@ -1,0 +1,10 @@
+uuid: 7db116cb-f9b2-4f93-986a-ac08343db07d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.rest_export
+label: 'Rest Export'
+targetEntityType: paragraph
+cache: true

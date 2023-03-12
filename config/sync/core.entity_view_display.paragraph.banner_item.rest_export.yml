@@ -1,0 +1,39 @@
+uuid: 707e7a4c-a09e-4d88-b977-ed936678f400
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.rest_export
+    - field.field.paragraph.banner_item.field_image
+    - field.field.paragraph.banner_item.field_logo
+    - paragraphs.paragraphs_type.banner_item
+  module:
+    - media
+id: paragraph.banner_item.rest_export
+targetEntityType: paragraph
+bundle: banner_item
+mode: rest_export
+content:
+  field_image:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_logo:
+    type: media_thumbnail
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

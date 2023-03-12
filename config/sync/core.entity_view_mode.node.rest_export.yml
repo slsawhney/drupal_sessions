@@ -1,0 +1,10 @@
+uuid: 8595a848-5d00-4abd-8e10-07beadc84594
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.rest_export
+label: 'Rest export'
+targetEntityType: node
+cache: true
