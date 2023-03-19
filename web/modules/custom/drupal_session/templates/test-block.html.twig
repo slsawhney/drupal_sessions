@@ -1,0 +1,23 @@
+<div class="container">
+  <h3>{{ '__student_details' | t }}</h3>
+  <div class="row">
+    <div class="col">Name</div>
+    <div class="col">Age</div>
+    <div class="col">DOB</div>
+  </div>
+  {% for item in data_set %}
+    {% set rowClass = 'even' %}
+    {% if loop.index is odd %}
+      {% set rowClass = 'odd' %}
+    {% endif %}
+    <div class="row {{ rowClass }}">
+      <div class="col">{{ item.name }}</div>
+      <div class="col">{{ item.age }}</div>
+      <div class="col">{{ item.dob }}</div>
+    </div>
+  {% endfor %}
+</div>
+
+
+
+

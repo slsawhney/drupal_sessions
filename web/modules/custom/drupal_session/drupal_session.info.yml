@@ -1,0 +1,5 @@
+name: Drupal Session Module
+type: module
+description: 'Drupal Session Module.'
+package: Name of Company
+core_version_requirement: ^8 || ^9
