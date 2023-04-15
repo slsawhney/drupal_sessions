@@ -1,0 +1,4 @@
+services:
+  drupal_session.get_data:
+    class: Drupal\drupal_session\getDataService
+    arguments: ['@http_client']

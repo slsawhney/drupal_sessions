@@ -23,15 +23,17 @@ class TestDataBlock extends BlockBase {
       '#markup' => '<h2>'.$this->t('Test, World!'). '</h2>',
     ]; */
 
-    $data_set = [
-      0 => ['name' => 'Manish', 'age' => 37, 'dob' => 'abc'],
-      1 => ['name' => 'Mohan', 'age' => 37, 'dob' => 'abc'],
-      2 => ['name' => 'Himani', 'age' => 37, 'dob' => 'abc']
-    ];
+    //services
+    $getService = \Drupal::service('drupal_session.get_data');
+    $dataSet = $getService->getData();
+
+dump($dataSet);
+
+
 
     return [
       '#theme' => 'test_block',
-      '#data_set' => $data_set,
+      '#data_set' => $dataSet,
     ];
   }
 
