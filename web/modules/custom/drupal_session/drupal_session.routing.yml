@@ -1,0 +1,15 @@
+drupal_session.settings:
+  path: '/admin/config/drupal-session/settings'
+  defaults:
+    _form: '\Drupal\drupal_session\Form\DrupalSessionConfiguration'
+    _title: 'Drupal Session Configuration Form'
+  requirements:
+    _permission: 'administer site configuration'
+
+drupal_session.content_list:
+  path: '/drupal-session/content-list'
+  defaults:
+    _controller: '\Drupal\drupal_session\Controller\ContentList::getContentList'
+    _title: 'Content List'
+  requirements:
+    _permission: 'access content'

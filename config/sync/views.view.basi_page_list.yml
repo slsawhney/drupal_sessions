@@ -12,7 +12,7 @@ dependencies:
     - serialization
     - user
 id: basi_page_list
-label: 'Basi Page List'
+label: 'Basic Page List'
 module: views
 description: ''
 tag: ''

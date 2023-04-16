@@ -9,3 +9,4 @@
 /.idea
 /web/themes/contrib/
 /web/themes/custom/drupal_sessions/node_modules/
+*.DS_Store

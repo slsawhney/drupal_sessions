@@ -11,6 +11,11 @@ function drupal_session_theme($existing, $type, $theme, $path) {
       'variables' => [
         'data_set' => NULL
       ]
-    ]
+    ],
+    'get_content_list' => [
+      'variables' => [
+        'data_set' => NULL
+      ]
+    ],
   ];
 }

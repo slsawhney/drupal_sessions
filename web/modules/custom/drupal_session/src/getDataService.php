@@ -21,26 +21,21 @@ class getDataService {
   public function getData() {
 
     try {
-      $request = $this->http_client->get('//springer.eu/de/news-list/en', [
+      $token = \Drupal::getContainer()->get('csrf_token');
+      $config = \Drupal::config('drupal_session.settings');
+      $external_api_url = $config->get('external_api_url');
+
+      $request = $this->http_client->get($external_api_url, [
         'headers' => [
           //'Authorization' => 'Bearer ' . $auth_token,
-          'Content-Type' => 'application/json',
-        ],
+          'Content-Type' => 'application/json'
+        ]
       ]);
       return $apiResponse = json_decode($request->getBody());
     } catch (ClientException|RequestException|TransferException|BadResponseException $exception) {
       watchdog_exception('drupal_session', $exception, NULL, [], 6);
       return json_decode((string) $exception->getResponse()->getBody());
     }
-
-
-    /*$data_set = [
-          0 => ['name' => 'Manish', 'age' => 37, 'dob' => 'abc'],
-          1 => ['name' => 'Mohan', 'age' => 38, 'dob' => 'abc'],
-          2 => ['name' => 'Himani', 'age' => 39, 'dob' => 'abc']
-        ];
-
-        return $data_set;*/
   }
 
 }

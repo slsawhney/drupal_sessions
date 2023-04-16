@@ -27,10 +27,6 @@ class TestDataBlock extends BlockBase {
     $getService = \Drupal::service('drupal_session.get_data');
     $dataSet = $getService->getData();
 
-dump($dataSet);
-
-
-
     return [
       '#theme' => 'test_block',
       '#data_set' => $dataSet,

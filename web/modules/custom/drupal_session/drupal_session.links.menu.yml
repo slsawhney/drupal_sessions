@@ -1,0 +1,6 @@
+drupal_session.admin_configuration_form:
+  title: 'Drupal Session Configuration Form'
+  route_name: drupal_session.settings
+  description: 'Drupal Session Configuration'
+  parent: system.admin_config_system
+  weight: 99
