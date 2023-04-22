@@ -1,0 +1,24 @@
+uuid: 91eead59-d84e-4dc1-9d56-7352e4879a35
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tags_items
+  module:
+    - views
+  theme:
+    - drupal_sessions
+id: views_block__tags_items_block_1
+theme: drupal_sessions
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:tags_items-block_1'
+settings:
+  id: 'views_block:tags_items-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

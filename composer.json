@@ -26,8 +26,10 @@
         "drupal/pathauto": "^1.11",
         "drupal/restui": "^1.21",
         "drupal/svg_image": "^3.0",
+        "drupal/term_reference_tree": "^2.0",
         "drupal/twig_tweak": "^3.2",
         "drupal/upgrade_status": "^3.18",
+        "drupal/views_autosubmit": "^1.5",
         "drupal/webform": "^6.1",
         "drush/drush": "^11.4"
     },
